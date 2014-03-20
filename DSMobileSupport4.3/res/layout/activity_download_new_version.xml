@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp" >
+
+    <Button
+        android:id="@+id/btnDownload4.3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:drawableLeft="@drawable/ic_download1"
+        android:gravity="left|center_vertical"
+        android:text="@string/btn_version4.3" />
+
+    <Button
+        android:id="@+id/btnDownload2.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnDownload4.3"
+        android:drawableLeft="@drawable/ic_download1"
+        android:gravity="left|center_vertical"
+        android:text="@string/btn_version2.2" />
+
+</RelativeLayout>

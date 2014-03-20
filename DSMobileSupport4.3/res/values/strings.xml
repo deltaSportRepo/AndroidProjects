@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Titles -->
+    <string name="app_name">DS Mobile Support</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">DS Mobile Support</string>
+    <string name="title_activity_show_article_state">Stanje artikla</string>
+    <string name="title_activity_no_licence_notification">No Licence</string>
+    <string name="title_activity_download_new_version">Preuzmi novu verziju</string>
+    <string name="title_activity_show_article_state_table">Stanje artikla</string>
+    <string name="title_activity_show_image_with_details">Detalji artikla</string>
+    <string name="title_already_registrated">Već ste prijavljeni</string>
+
+    <!-- TextView -->
+    <string name="tv_get_state">Stanje artikla</string>
+    <string name="tv_settings">Podešavanje</string>
+    <string name="tv_exit">Izlaz</string>
+    <string name="tv_choose_retail_store">Izaberi radnju</string>
+    <string name="tv_choose_retail_group">Izaberi region</string>
+    <string name="tv_current_retail_store">Radnja: </string>
+
+    <!-- EditText -->
+    <string name="et_enter_articleId">Unesi šifru artikla</string>
+    <string name="et_enter_jmbg">Unesite JMBG</string>
+    <string name="et_enter_namesurname">Unesite ime i prezime</string>
+    <string name="et_enter_mail">Unesite E-mail</string>
+    <string name="et_already_registered">Molimo vas sačekajte odobrenje IT sektora Delta Sporta.</string>
+
+    <!-- Tekst za dugmice -->
+    <string name="btn_apply">Potvrdi</string>
+    <string name="success_operation">Uspešna operacija</string>
+    <string name="btn_send_request">Pošalji zahtev</string>
+    <string name="btn_barcode_scan">Skeniraj barcode</string>
+    <string name="btn_back">Nazad</string>
+    <string name="btn_new_version_download">Preuzimanje nove verzije</string>
+    <string name="btn_version2.2">DSMobileSupport2.2</string>
+    <string name="btn_version4.3">DSMobileSupport4.3</string>
+
+    <!-- Web service parametri -->
+    <string name="namespace">http://tempuri.org/</string>
+    <string name="url">http://mobileappsupport.deltasport.com/MobileAppSupport/MobileAppSupport.asmx</string>
+
+    <!-- Soap action -->
+    <string name="soap_action_getitembylocationanditemId">http://tempuri.org/GetItemByLocationAndItemId</string>
+    <string name="soap_action_getretailstores">http://tempuri.org/GetRetailStores</string>
+    <string name="soap_action_getitembylocationandbarcode">http://tempuri.org/GetItemByLocationAndBarcode</string>
+    <string name="soap_action_getregions">http://tempuri.org/GetRegions</string>
+    <string name="soap_action_getitembyregionanditemid">http://tempuri.org/GetItemByRegionAndItemId</string>
+    <string name="soap_action_getitembyregionandbarcode">http://tempuri.org/GetItemByRegionAndBarcode</string>
+    <string name="soap_action_checkisuserregistered">http://tempuri.org/CheckIsUserRegistered</string>
+    <string name="soap_action_storeuserrequest">http://tempuri.org/StoreUserRequest</string>
+    <string name="soap_action_getlatestversion">http://tempuri.org/GetLatestVersion</string>
+    <string name="soap_action_getimagesurl">http://tempuri.org/GetImageList</string>
+
+    <!-- Method name -->
+    <string name="method_name_getitembylocationanditemId">GetItemByLocationAndItemId</string>
+    <string name="method_name_getretailstores">GetRetailStores</string>
+    <string name="method_name_getitembylocationandbarcode">GetItemByLocationAndBarcode</string>
+    <string name="method_name_getregions">GetRegions</string>
+    <string name="method_name_getitembyregionanditemid">GetItemByRegionAndItemId</string>
+    <string name="method_name_getitembyregionandbarcode">GetItemByRegionAndBarcode</string>
+    <string name="method_name_checkisuserregistered">CheckIsUserRegistered</string>
+    <string name="method_name_storeuserrequest">StoreUserRequest</string>
+    <string name="method_name_getlatestversion">GetLatestVersion</string>
+     <string name="method_name_getimagesurl">GetImageList</string>
+
+    <!-- LongText -->
+    <string name="txtNoLicenceNotification">Nemate pravo za korišćenje ove aplikacije.\nPrijavite se IT sektoru Delta Sporta i dostavite sledeće podatke:</string>
+    <string name="txtNewVersionNotification">Dostupna je nova verzija. \nPreuzmite je!</string>
+
+    <!-- Poruke -->
+    <string name="txtProcessRequest">Obrada zahteva...</string>
+    <string name="txtPleaseWait">Molim sačekajte</string>
+    <string name="noqty_string">Empty</string>
+    <string name="noqty_notification">Nema podataka za odabrani parametar</string>
+
+    <!-- TableText -->
+     <string name="sillhouete">Silueta:</string>
+    <string name="itemName">Naziv:</string>
+    <string name="itemPrice">Cena:</string>
+    <string name="column1header">Proizvod</string>
+    <string name="column2header">Veličina</string>
+    <string name="column3header">Količina</string>
+    
+    
+    <!-- MenuItems -->
+    <string name="menu_text_new_version">Nova verzija</string>
+    <string name="menu_text_home">Početna</string>
+    <string name="menu_text_search">Pretraži</string>
+    <string name="menu_text_preferences">Podešavanja</string>
+    <string name="menu_text_exit">Izlaz</string>
+    
+    <!-- RegEx -->
+    <!-- <string name="reg_ex_mail">^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@"+ "[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$</string> -->
+
+</resources>

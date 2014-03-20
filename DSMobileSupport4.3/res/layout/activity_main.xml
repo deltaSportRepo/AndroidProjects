@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingTop="1dip" >
+
+    <TextView
+        android:id="@+id/tvLicenceNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/btnGetState"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tvLicenceNotification"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:drawableLeft="@drawable/ic_home"
+        android:gravity="center"
+        android:text="@string/tv_get_state" />
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnGetState"
+        android:drawableLeft="@drawable/ic_settings"
+        android:gravity="center"
+        android:text="@string/tv_settings" />
+    
+     <Button
+        android:id="@+id/btnDownloadNewVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnSettings"
+        android:text="@string/btn_new_version_download" 
+        android:gravity="center"
+        android:drawableLeft="@drawable/ic_download"/>
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnDownloadNewVersion"
+        android:drawableLeft="@drawable/ic_exit"
+        android:gravity="center"
+        android:text="@string/tv_exit" />
+
+</RelativeLayout>

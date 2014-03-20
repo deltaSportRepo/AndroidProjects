@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dsmobilesupport"
+    android:versionCode="2"
+    android:versionName="1.5" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+    <!-- android:targetSdkVersion="18" /> -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Holo" >
+        <activity
+            android:name="activities.GetArticleState"
+            android:label="@string/tv_get_state" >
+        </activity>
+        <activity
+            android:name="activities.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="activities.Settings"
+            android:label="@string/tv_settings" >
+        </activity>
+        <activity
+            android:name="activities.ShowArticleState"
+            android:label="@string/title_activity_show_article_state" >
+        </activity>
+        <activity
+            android:name="activities.NoLicenceNotification"
+            android:label="@string/title_activity_no_licence_notification" >
+        </activity>
+        <activity
+            android:name="activities.DownloadNewVersion"
+            android:label="@string/title_activity_download_new_version" >
+        </activity>
+        <activity
+            android:name="activities.ShowArticleStateTable"
+            android:label="@string/title_activity_show_article_state_table" >
+        </activity>
+        <activity
+            android:name="activities.ShowImageWithDetails"
+            android:label="@string/title_activity_show_image_with_details" >
+        </activity>
+    </application>
+
+</manifest>
