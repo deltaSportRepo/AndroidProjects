@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingTop="1dip" >
+
+    <TextView
+        android:id="@+id/tvLicenceNotification"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:gravity="left"
+        android:singleLine="false"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/etJMBG"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tvLicenceNotification"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/et_enter_jmbg"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etJMBG"
+        android:layout_alignBottom="@+id/etJMBG"
+        android:layout_alignParentLeft="true"
+        android:text="@string/et_enter_jmbg" />
+
+    <EditText
+        android:id="@+id/etNameSurname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etJMBG"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/etJMBG"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/et_enter_namesurname"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etNameSurname"
+        android:layout_alignBottom="@+id/etNameSurname"
+        android:layout_alignParentLeft="true"
+        android:text="@string/et_enter_namesurname" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etNameSurname"
+        android:layout_below="@+id/TextView02"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/et_enter_mail"
+        android:singleLine="true"
+       />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etEmail"
+        android:layout_alignBottom="@+id/etEmail"
+        android:layout_alignParentLeft="true"
+        android:text="@string/et_enter_mail" />
+
+    <TextView
+        android:id="@+id/tvOdaberiRadnju"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/etEmail"
+        android:layout_marginTop="20dp"
+        android:text="@string/et_enter_retail_store" />
+
+    <Spinner
+        android:id="@+id/spRetailStoresRegister"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvOdaberiRadnju"
+        android:layout_marginTop="14dp" />
+
+    <Button
+        android:id="@+id/btnUserRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spRetailStoresRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:drawableLeft="@drawable/ic_register"
+        android:gravity="left|center_vertical"
+        android:text="@string/btn_send_request" />
+
+</RelativeLayout>

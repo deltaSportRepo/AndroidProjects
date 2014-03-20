@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingTop="1dip" >
+
+        <TextView
+            android:id="@+id/txtChooseRetailGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/itemId"
+            android:text="@string/tv_choose_retail_group"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/spRegions"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txtChooseRetailGroup" />
+
+        <Button
+            android:id="@+id/btnScan"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spRegions"
+            android:layout_centerHorizontal="true"
+            android:drawableLeft="@drawable/ic_barcode"
+            android:gravity="left|center_vertical"
+            android:onClick="onClick"
+            android:text="@string/btn_barcode_scan" />
+
+        <Button
+            android:id="@+id/btnSendRequest"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnScan"
+            android:layout_below="@+id/btnScan"
+            android:drawableLeft="@drawable/ic_search"
+            android:gravity="left|center_vertical"
+            android:onClick="startWebAccess"
+            android:text="@string/btn_send_request" />
+
+        <TextView
+            android:id="@+id/tvGetArticleStateNotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/btnSendRequest"
+            />
+
+        <EditText
+            android:id="@+id/itemId"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/et_enter_articleId"
+            android:singleLine="true" >
+        </EditText>
+
+</RelativeLayout>
+
+
+
+
+
