@@ -32,7 +32,7 @@ public class DownloadNewVersion extends Activity implements OnClickListener {
 
 		btnDownload22.setOnClickListener(this);
 		btnDownload43.setOnClickListener(this);
-		System.out.append('c');
+		System.out.print("Zasssto?");
 	}
 
 	@Override
